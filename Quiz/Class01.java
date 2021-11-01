@@ -8,22 +8,16 @@ class Ccir{
 	double radius;
 	String name;
 	
-	
-	
 	void cal_area() {
-		System.out.println(length*width*2+length*height*2+width*height*2);
-		
-		
+		System.out.println("半徑 = "+radius);
 		System.out.println(4*pi*radius*radius*radius/3);
-		
+		System.out.println("長 = "+length);
+		System.out.println("寬 = "+width);
+		System.out.println("高 = "+height);
+		System.out.println("立方體表面積 = "+(length*width*2+length*height*2+width*height*2));
 		
 	}
-	
-	
-	
 }
-
-// 球體體積 4/3*pi*r^3
 
 public class Class01 {
 	public static void main(String args[]) {
@@ -35,7 +29,15 @@ public class Class01 {
 		cir1.height = 6;
 		cir1.cal_area();
 		
-		
 	}
 
 }
+
+
+//半徑 = 10.0
+//4188.786666666667
+//長 = 4
+//寬 = 5
+//高 = 6
+//立方體表面積 = 148
+
